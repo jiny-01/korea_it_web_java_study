@@ -1,6 +1,6 @@
-package day01;
+package _01_intro;
 
-public class Main {
+public class Intro {
     public static void main(String[] args) {
         System.out.println("Hello");
         System.out.println("world");           //sout: 콘솔에 문자열 출력
