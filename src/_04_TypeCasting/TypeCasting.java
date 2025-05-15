@@ -16,7 +16,7 @@ public class TypeCasting {
         System.out.println(scoreFloat);
         System.out.println((int) scoreFloat);      //정수부분만 출력
 
-        double scoreDouble = 88.5;
+        double scoreDouble = 88.5d;
         System.out.println((int) scoreDouble);
 
         double sum1 = 98 + 77.3;       //눈에 보이진 않지만 (double)98 임
@@ -25,12 +25,12 @@ public class TypeCasting {
         int sum2 = 98 + (int)55.3F;
         System.out.println(sum2);
 
+        int convertedScoreInt = (int) scoreDouble; //int 에서 double 일 땐 수동
         System.out.println(convertedScoreInt);
-        int covertedScoreInt = (int) scoreDouble; //int 에서 double 일 땐 수동
-
         //double -> float -> long -> int (수동 형변환)
 
         double convertedScoreDouble = scoreInt;  //double 이 Int보다 크기 때문에 가능
+        System.out.println(convertedScoreDouble);
         //int -> long -> float -> double (자동 형변환)
 
         long scoreLong = 45L;
@@ -59,8 +59,10 @@ public class TypeCasting {
         double d = Double.parseDouble("123.45");
         System.out.println(d);
 
-        i = Integer.pareseInt("숫자");
+        //i = Integer.parseInt("숫자");   //숫자가 아니기때문에 오류
         System.out.println(i);
+
+        ;
 
 
 
