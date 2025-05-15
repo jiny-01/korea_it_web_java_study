@@ -19,7 +19,7 @@ public class DataTypes {
         System.out.println("l은" + l);
 
         //실수 - float, double  -> 보통 double 많이 씀
-        float f = 3.14f;                   //float 는 끝에 f 써야함
+        float f = 3.14f;                   //float 는 끝에 f, F 써야함
         double d = 3.14123456123456d;       //double 은 끝에 d
 
         //문자 - char
