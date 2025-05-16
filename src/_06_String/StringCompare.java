@@ -15,8 +15,9 @@ public class StringCompare {
         // 같은 공간을 참조하고 있다.
         System.out.println(password1 == password2);  //참조 위치 비교
         System.out.println(password1.equals(password2));  //내용 비교
+        //new를 안했으니
         password1 = new String("1234");  //String 클래스 - 해당 클래스에 객체(인스턴스) 선언
-        password2 = new String("1234");\
+        password2 = new String("1234");
         /*
         * new를 하면 내용이 같더라도 새로운 메모리 공간을
         * 각각 할당하여 다른 위치에 저장
