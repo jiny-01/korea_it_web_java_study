@@ -24,13 +24,13 @@ public class ElseIf {
         //중첩 if 문
         int age = 25;
         String gender = "여성";
-        if (age >= 20) {
-            if(gender.equals("여성")){
+        if (age >= 20) {                                      //age 가 20 이상일 때     --조건1
+            if(gender.equals("여성")){                   //성별이 여성이면  --조건2
                 System.out.println("성인 여성입니다.");
-            } else {
+            } else {                                     //성별이 여성이 아니면  --조건2
                 System.out.println("성인 남성입니다.");
             }
-        } else {
+        } else {                                              //age 가 20 이상이 아닐 때 --조건1
             System.out.println("미성년자입니다.");
         }
     }
