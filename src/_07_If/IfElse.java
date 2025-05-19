@@ -11,6 +11,7 @@ public class IfElse {
         } else {                               //else {조건이 거짓일 때 실행할 코드}
         }   System.out.println("탑승 불가능");
     }
+
 }
 
 
