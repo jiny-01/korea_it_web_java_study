@@ -148,6 +148,7 @@ public class SwitchCase {
                 System.out.println("일");
         }
 
-
     }
 }
+
+
