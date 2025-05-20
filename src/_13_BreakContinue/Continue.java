@@ -34,6 +34,23 @@ public class Continue {
         int sold = 0;       //현재 판매량
         int noShow = 12;    //노쇼 번호
 
+//        while (nowNum <= waiting) {
+//            System.out.println(nowNum + "번 손님 입장함";
+//
+//            if(nowNum == noShow) {
+//                System.out.println(nowNum + "번 손님 노쇼함");
+//                nowNum++;
+//                continue;
+//            }
+//            sold++;
+//            if (sold == max) {  // 메뉴가 다 팔렸을 때
+//                System.out.println("재료 소진됨");
+//                break;
+//            }
+//        }
+
+
+
         while (nowNum <= waiting) {         //50번 반복하도록
             System.out.println(nowNum + "번 손님 입장!");
 
@@ -44,20 +61,17 @@ public class Continue {
             }
 
             sold++;                     //판매처리 -> 현재 판매량 1씩 증가
+
+            System.out.println("현재번호:" + nowNum);
+            nowNum++;
             if (sold == max) {
                 System.out.println("재료소진됨");
                 break;
             }
 
-            nowNum++;                    //번호 1씩 증가
+//          nowNum++;                    //번호 1씩 증가
 //
-
-
-
         }
-
-
-
 
     }
 }
