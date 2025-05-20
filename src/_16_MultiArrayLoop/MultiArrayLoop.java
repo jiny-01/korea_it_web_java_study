@@ -37,5 +37,26 @@ public class MultiArrayLoop {
             System.out.println();
         }
         //위에서 [10][15] 지정해줘서 length 가 10, 15 로 반복되는지?
+
+        //다차원 배열 합 구하기 - 풀어보기
+// 3X3 크기 1부터 홀수만 차례대로 대입하고 출력해서 확인
+// 그 수들의 합 구하기
+
+        int[][] numlist = new int[3][3];
+        for (int i = 0; i < numlist.length; i++) {
+            for (int j = 0; j < numlist[i].length; j++) {
+                System.out.println(numlist[i][j]);
+            }
+            numlist[i] = num;
+            num += 1;
+        }
+
+        for (int i = 0; i < numlist.length; i++) {
+            for (int j = 0; j < numlist[i].length; j++) {
+                System.out.println(numlist[i][j] + " ");
+            }
+            System.out.println();
+        }
+            }
     }
 }
