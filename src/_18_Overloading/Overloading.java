@@ -28,25 +28,24 @@ public class Overloading {
         System.out.println(number + "의" + exponent + "승은" + result + "입니다");
     }
 
-//    //문자열 이름 출력
-//    public static void printInfo(String name) {
-//        String str = name;
-//        System.out.println("이름:" + name);
+    //문자열 이름 출력
+    public static void printInfo(String name) {
+        System.out.println("이름:" + name);
+
+    }
 //
-//    }
+    //문자열 이름, 정수 나이 출력
+    public static void printInfo(String name, int age) {
+        System.out.println("이름:" + name);
+        System.out.println("나이:" + age);
+    }
 //
-//    //문자열 이름, 정수 나이 출력
-//
-//    public static void printInfo(int num) {
-//        int age = num;
-//        System.out.println("나이:" + num);
-//    }
-//
-//    //문자열 이름, 정수 나이, 문자열 이메일 출력
-//    public static void printInfo(String email) {
-//        String str = email;
-//        System.out.println("이메일:" + email);
-//    }
+    //문자열 이름, 정수 나이, 문자열 이메일 출력
+    public static void printInfo(String name, int age, String email) {
+        System.out.println("이름:" + name);
+        System.out.println("나이:" + age);
+        System.out.println("이메일:" + email);
+    }
 
 
     //메소드 이름 add() => void
@@ -54,14 +53,23 @@ public class Overloading {
     //double 과 double 덧셈         -> 형 변환 int
     //문자열 숫자와 문자열 숫자 덧셈
 
-    public static int add(int i, int j) {
+    //int 간 덧셈
+    public static void add(int i, int j) {
         int sum = i + j;
-        return i + j;
-//        System.out.println("int 합: " + sum);
+        System.out.println("int 합: " + sum);
     }
 
-    public static void(double 0.2, double 0.3);
+    //double 간 덧셈
+    public static void add(double i, double j) {
+        int doubleSum = (int) (i + j);
+        System.out.println("double 합: " + doubleSum);
+    }
 
+    //문자열(숫자) 덧셈
+    public static void add(String str1, String str2) {
+        String strSum = str1 + str2;
+        System.out.println("문자열 숫자 덧셈: " + strSum);
+    }
 
 
 
@@ -88,16 +96,18 @@ public class Overloading {
         //문자열 이름, 나이(정수) 전달 => 이름, 나이 출력
         //문자열 이름, 나이(정수), 이메일(문자열) => 이름 나이 이메일 출력
 
-//        printInfo("김지니");
-//        printInfo(25);
+        printInfo("김지니");
+        printInfo("김지니", 25);
+        printInfo("김지니", 25, "allie7019");
 
         //메소드 이름 add() => void
         //int 와 int 덧셈
         //double 과 double 덧셈         -> 형 변환 int
         //문자열 숫자와 문자열 숫자 덧셈
 
-        add(1, 4);
-
+    add(2, 4);
+    add(2.1, 3.1);
+    add("1", "2");
 
 
     }
