@@ -13,7 +13,7 @@ public class Array03 {
         System.out.println(Arrays.toString(nums));
 
         //내림차순
-//        Arrays.sort(nums, Comparator.reverseOrder());     //여기서 int 인식 못하므로 위에 선언할 때 Integer 로 변경
+        Arrays.sort(nums, Comparator.reverseOrder());     //여기서 int 인식 못하므로 위에 선언할 때 Integer 로 변경
         //int는 원시적인 자료형 => primitive type
         //Integer : 래퍼 클래스(wrapper class)
         //같은 정수지만 int 는 계산만 가능한 반면
