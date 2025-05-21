@@ -49,22 +49,41 @@ public class MultiArrayLoop {
 // 3X3 크기 1부터 홀수만 차례대로 대입하고 출력해서 확인
 // 그 수들의 합 구하기
 
-        int[][] numlist = new int[3][3];
-        for (int i = 0; i < numlist.length; i++) {
-            for (int j = 0; j < numlist[i].length; j++) {
-                System.out.println(numlist[i][j]);
-            }
-            numlist[i] = num;
-            num += 1;
-        }
+//        int[][] numlist = new int[3][3];
+//        for (int i = 0; i < numlist.length; i++) {
+//            for (int j = 0; j < numlist[i].length; j++) {
+//                System.out.println(numlist[i][j]);
+//            }
+//            numlist[i] = num;
+//            num += 1;
+//        }
+//
+//        for (int i = 0; i < numlist.length; i++) {
+//            for (int j = 0; j < numlist[i].length; j++) {
+//                System.out.println(numlist[i][j] + " ");
+//            }
+//            System.out.println();
+//        }
+//            }
 
-        for (int i = 0; i < numlist.length; i++) {
-            for (int j = 0; j < numlist[i].length; j++) {
-                System.out.println(numlist[i][j] + " ");
+        //정답
+        int[][] arr = new int[3][3];
+        for (int i = 0; i < arr.length; i++) {
+            for (int j = 0; j < arr[i].length; j++) {
+                arr[i][j] = num;
+                num+=2;
+                System.out.print(arr[i][j] + " ");
             }
             System.out.println();
         }
-            }
 
+        int sum = 0;
+        for (int i = 0; i < arr.length; i++) {
+            for (int j = 0; j < arr[i].length; j++) {\
+                sum += arr[i][j];
+                System.out.print(arr[i][j] + " ");
+            }
+        }
+        System.out.println("총합: " + sum);
     }
 }

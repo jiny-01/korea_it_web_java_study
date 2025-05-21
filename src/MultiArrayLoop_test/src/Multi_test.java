@@ -7,34 +7,32 @@ public class Multi_test {
         // 3X3 크기 1부터 홀수만 차례대로 대입하고 출력해서 확인
         // 그 수들의 합 구하기
 
-        int[][] numlist = new int[3][3];
-        int num = 1;
-        int sum = 0;
-        for (int i = 0; i < numlist.length; i++) {
-            for (int j = 0; j < numlist[i].length; j++) {
-                numlist[i][j] = num;            //2차원 배열 i의 j 에 num 대입
-                num += 2;                       //홀수만 입력되도록
-                sum += numlist[i][j];
-                System.out.print(numlist[i][j] + " ");
-            }
-            System.out.println();
-        }
-        System.out.println("총합: " + sum);
+        //내가 한 거
+//        int[][] numlist = new int[3][3];
+//        int num = 1;
 //        int sum = 0;
-//        for (int[] numbers : numlist) {   //numlist의 각 요소는 numbers 로
-//            for num : numbers) {        //numbers 배열 안 값 하나씩
-//            sum += num;
-//            }
-//            System.out.println(numlist);
-//        }
-
-
-
-
 //        for (int i = 0; i < numlist.length; i++) {
 //            for (int j = 0; j < numlist[i].length; j++) {
+//                numlist[i][j] = num;            //2차원 배열 i의 j 에 num 대입
+//                num += 2;                       //홀수만 입력되도록
+//                sum += numlist[i][j];
+//                System.out.print(numlist[i][j] + " ");
 //            }
 //            System.out.println();
+//        }
+//        System.out.println("총합: " + sum);
+
+
+//2번째 방법 - 배열 먼저 출력하고 합 구해서 출력하기
+//        int sum = 0;
+//        for (int i = 0; i < numlist.length; i++) {
+//            for (int j = 0; j < numlist[i].length; j++) {\
+//                sum += numlist[i][j];
+//            }
+//            System.out.println();
+//
+
+
 
     }
 }
