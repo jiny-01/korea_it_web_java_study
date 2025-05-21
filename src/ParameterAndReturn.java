@@ -32,14 +32,28 @@ public class ParameterAndReturn {
         return result;
     }
 
+    //문자열을 매개변수로 전달하고 해당 문자열의 길이를 반환받아서 출력하는 메소드
+    public static int strLength(String str) {
+        int len = str.length();      //길이를 len 으로 지정
+        System.out.println("문자열의 길이: " + len);
+        return len;
+    }
+
     public static void main(String[] args) {
         int power = getPower(3);    //getPower(3)의 값을 power 라는 변수에 저장
         System.out.println(power);
 
+        int powerByExp = getPowerByExp(2, 4);
+        System.out.println(powerByExp);
 
 
+//return - 메소드를 호출한 부분에 반환값을 전달해줌
 
+//문자열을 매개변수로 전달하고 해당 문자열의 길이를 반환받아서 출력하는 메소드
+//        System.out.println(getStrLength("안녕하세요 반갑습니다"));
 
+        String str = "안녕하세요 반갑습니다.";
+        int getStrLength = strLength(str);
 
 
 
