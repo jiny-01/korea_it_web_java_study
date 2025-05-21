@@ -33,8 +33,9 @@ public class ParameterAndReturn {
     }
 
     //문자열을 매개변수로 전달하고 해당 문자열의 길이를 반환받아서 출력하는 메소드
+    //strLength 메소드는 int형으로 반환하고 String 을 매개변수로 받음
     public static int strLength(String str) {
-        int len = str.length();      //길이를 len 으로 지정
+        int len = str.length();           //길이를 len 으로 지정
         System.out.println("문자열의 길이: " + len);
         return len;
     }
@@ -53,7 +54,9 @@ public class ParameterAndReturn {
 //        System.out.println(getStrLength("안녕하세요 반갑습니다"));
 
         String str = "안녕하세요 반갑습니다.";
-        int getStrLength = strLength(str);
+        int strLength = strLength(str);
+
+//        System.out.println(getStrLength("안녕하세요 반갑습니다"));
 
 
 
