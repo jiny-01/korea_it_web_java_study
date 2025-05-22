@@ -74,7 +74,7 @@ public class Overloading {
     public static void add(String str1, String str2) {
         String strSum = str1 + str2;
         System.out.println("문자열 숫자 덧셈: " + strSum);
-        System.out.println(str1 + "+" + str2 + "=" + Integer.parseInt(str1) + Integer.parseInt(str2));
+        System.out.println(str1 + "+" + str2 + "=" + (Integer.parseInt(str1) + Integer.parseInt(str2)));
     }
 
 
