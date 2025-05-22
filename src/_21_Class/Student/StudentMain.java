@@ -9,12 +9,12 @@ public class StudentMain {
         student.stu_name = "김지니";
         student.stu_age = 25;
         student.stu_email = "allie7019@naver.com";
-        student.stu_address = "해운대";
+        student.stu_address = "부산 해운대";
 
-        System.out.println(student.stu_name);
-        System.out.println(student.stu_age);
-        System.out.println(student.stu_email);
-        System.out.println(student.stu_address);
+//        System.out.println(student.stu_name);
+//        System.out.println(student.stu_age);
+//        System.out.println(student.stu_email);
+//        System.out.println(student.stu_address);
 
         //메소드 호출
         student.showInfo();
