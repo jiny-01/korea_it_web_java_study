@@ -28,6 +28,9 @@ public class Overloading {
         System.out.println(number + "의" + exponent + "승은" + result + "입니다");
     }
 
+    //문제풀이
+    //이름만
+
     //문자열 이름 출력
     public static void printInfo(String name) {
         System.out.println("이름:" + name);
@@ -56,7 +59,9 @@ public class Overloading {
     //int 간 덧셈
     public static void add(int i, int j) {
         int sum = i + j;
+
         System.out.println("int 합: " + sum);
+        System.out.println(i + "+" + j + "=" + (i+j));
     }
 
     //double 간 덧셈
@@ -69,10 +74,8 @@ public class Overloading {
     public static void add(String str1, String str2) {
         String strSum = str1 + str2;
         System.out.println("문자열 숫자 덧셈: " + strSum);
+        System.out.println(str1 + "+" + str2 + "=" + Integer.parseInt(str1) + Integer.parseInt(str2));
     }
-
-
-
 
 
     public static void main(String[] args) {
@@ -98,7 +101,7 @@ public class Overloading {
 
         printInfo("김지니");
         printInfo("김지니", 25);
-        printInfo("김지니", 25, "allie7019");
+        printInfo("김지니", 25, "allie7019@naver.com");
 
         //메소드 이름 add() => void
         //int 와 int 덧셈
