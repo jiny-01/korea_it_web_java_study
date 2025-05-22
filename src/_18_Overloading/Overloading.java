@@ -68,6 +68,7 @@ public class Overloading {
     public static void add(double i, double j) {
         int doubleSum = (int) (i + j);
         System.out.println("double 합: " + doubleSum);
+        System.out.println(i + "+" + j + "=" + (i+j));
     }
 
     //문자열(숫자) 덧셈
