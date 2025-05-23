@@ -46,5 +46,6 @@ public class Car {
 
     public void stop() {
         System.out.println(carName + "이 정지합니다.");
+
     }
 }
