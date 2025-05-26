@@ -44,6 +44,19 @@ public class main {
         //객체 생성과 동시에 속성도 함께 정의
 
 
+        Human human1 = new Human("김지니", 25);
+
+
+//        human1.setAnimalAge(25);
+        System.out.println(human1.getAnimalAge());
+//        human1.setAnimalName("김지니");
+        System.out.println(human1.getAnimalName());
+
+        //메소드 호출
+        human1.move();
+        human1.read("자바");
+//        human1.printAge();
+
 
 
 

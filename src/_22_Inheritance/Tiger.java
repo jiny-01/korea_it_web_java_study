@@ -25,7 +25,6 @@ public class Tiger extends Animal {
     }
 
 
-
     public Tiger(String animalName, int animalAge, boolean isStriped) {
         super(animalName, animalAge);
         this.isStriped = isStriped;
