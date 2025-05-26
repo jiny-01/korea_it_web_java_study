@@ -47,7 +47,7 @@ public class Animal {
 
     //메소드 - 반환값없음, move(움직입니다)
     public void move() {
-        System.out.println(animalName + "이 움직입니다");
+        System.out.println(" 움직입니다");
     }
 
 }

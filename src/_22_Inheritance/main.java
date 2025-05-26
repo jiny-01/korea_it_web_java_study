@@ -25,12 +25,27 @@ public class main {
         animal1.setAnimalName("고양이");
         animal1.setAnimalAge(3);
         animal1.move();
+//        animal1.setstriped / animal1.hunt;    ->setstriped, hunt : 자식의 메소드이므로 부모클래스에선 불가
 
         //메소드 호출
-        animal1.move(3);
+        animal1.move();
 
         //호랑이 객체
         Tiger tiger1 = new Tiger();
+        tiger1.setAnimalName("호랭이");
+        System.out.println(tiger1.getAnimalName());
+        tiger1.setAnimalAge(3);
+        System.out.println(tiger1.getAnimalAge());
+        tiger1.move();
+        tiger1.hunt();
+        tiger1.setStriped(true);
+
+        Tiger tiger2 = new Tiger("백호", 3, false);
+        //객체 생성과 동시에 속성도 함께 정의
+
+
+
+
 
     }
 }
