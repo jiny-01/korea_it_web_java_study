@@ -23,6 +23,9 @@ public abstract class Factory {         //abstract class : 추상클래스 명�
         this.name = name;
     }
 
+
+
+
     //추상클래스의 추상 메서드 정의 abstract void- 공장 설명(이름), 설명(생산)
     public abstract void produce(String model);      //produce 메소드가 있음을 명시만 함
 
@@ -33,6 +36,8 @@ public abstract class Factory {         //abstract class : 추상클래스 명�
     public String getName() {
         return name;
     }
+
+
 
     //setter
     public void setName(String name) {

@@ -37,8 +37,16 @@ public class Main {
         //그러므로 추상클래스의 객체가 만들어진 것이 아니기 때문에 추상클래스의 개념(객체 생성 불가)에 위배되는 것은 아니다.
 
 
-        TabletFactory ipad = new TabletFactory("아이패드 6세대");
-        ipad.upgrade();
+        TabletFactory ipad = new TabletFactory("apple");
+        ipad.setName("아이패드6세대");
+
+        //메소드 호출
+        ipad.produce("아이패드 6세대");
+        ipad.manage();
+
+        ipad.upgrade("아이패드 7세대");
+
+
 
 
     }
