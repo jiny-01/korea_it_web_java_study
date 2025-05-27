@@ -1,5 +1,7 @@
 package _21_Class.OOP;
 
+import _21_Class.Person.Person;
+
 public class OOP {
     public static void main(String[] args) {
         //OOP => Object Oriented Programming : 객체지향프로그래밍
@@ -15,14 +17,15 @@ public class OOP {
         //- 실행된 클래스메인에 직접 명시하면 -> 추상화 안된 거
         //2. 캡슐화
         //- 정보은닉(내부 변수에 직접적으로 접근하지 못하게)
+        //=> 데이터(변수)를 보호하고, 접근을 제한하여 안정성을 높히는 것
         //3. 상속
         //4. 다형성
 
-        //*접근제어자 -> 정보은닉 목적
-        //- public - 어디서든 접근 가능
-        //- default - 같은 패키지에서만 접근 가능 (아무것도 안 적으면 default- 명시 따로 하지 않음)
-        //- protected - 같은 패키지 또는 자식 클래스에서만 접근 가능
-        //- private - 해당 클래스 내부에서만 접근 가능 -> 클래스의 메인에선 불가능
+       Person person = new Person();
+        System.out.println(person.name);  //public - 접근 가능
+//        System.out.println(person.age);   //protected - 같은 패키지(Person)/자식 패키지만 가능 -> 접근 불가
+//        System.out.println(person.address); //default - 같은 패키지내에서만 가능
+
 
 
 
