@@ -17,12 +17,18 @@ public abstract class Factory {         //abstract class : 추상클래스 명�
     //필수적 필드(멤버변수) 정의
     private String name;
 
+    private String price;
 
     //객체 생성됨과 동시에 생성자 받도록 - PhoneFactory 에서 super(name)으로 호출하기 위함
     public Factory(String name) {
         this.name = name;
     }
 
+    // 새로 추가한 생성자 (오버로딩)
+    public Factory(String name, String price) {
+        this.name = name;
+        this.price = price;
+    }
 
 
 
@@ -37,11 +43,20 @@ public abstract class Factory {         //abstract class : 추상클래스 명�
         return name;
     }
 
+    public String getPrice() {
+        return price;
+    }
+
+
 
 
     //setter
     public void setName(String name) {
         this.name = name;
+    }
+
+    public void setPrice(String price) {
+        this.price = price;
     }
 
     //추상메소드말고 일반 메소드도 가능
