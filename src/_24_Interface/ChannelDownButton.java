@@ -1,5 +1,6 @@
 package _24_Interface;
 
+//채널 다운 버튼 - Button 상속
 public class ChannelDownButton extends Button{
 
     @Override

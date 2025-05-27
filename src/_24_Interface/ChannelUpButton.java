@@ -1,5 +1,6 @@
 package _24_Interface;
 
+//채널업 버튼 - Button 상속
 public class ChannelUpButton extends Button{
 
     //press- 한칸씩

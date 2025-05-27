@@ -1,5 +1,6 @@
 package _24_Interface;
 
+//Tv 리모컨 구현하기
 public class TvRemoteController {
 
     //Tv 리모컨 (클래스) 의 멤버변수 정의 - 버튼 5개
@@ -20,9 +21,11 @@ public class TvRemoteController {
         this.volumeDownButton = volumeDownButton;
     }
 
+    //메소드 구현하기
     public void onPressedPowerButton() {
         System.out.print("TV 의 ");
-        powerButton.onPressed();   //메소드 안에서 메소드 호출
+        powerButton.onPressed();   //메소드 안에서 메소드 호출 - private 이므로 바로 접근 불가
+                                    //powerButton 안에 정의한 onPressed 메소드 불러오기
     }
 
     public void onPressedChannelUpButton() {

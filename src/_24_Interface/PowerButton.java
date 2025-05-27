@@ -1,5 +1,6 @@
 package _24_Interface;
 
+//전원 버튼 - Button 상속
 public class PowerButton extends Button{
 
     private boolean status;    //현재 상태를 나타내기 위함

@@ -1,5 +1,6 @@
 package _24_Interface;
 
+//볼륨업 버튼 - Button 상속
 public class VolumeUpButton extends Button {
 
     @Override
