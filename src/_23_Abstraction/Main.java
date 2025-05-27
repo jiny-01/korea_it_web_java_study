@@ -40,6 +40,7 @@ public class Main {
         TabletFactory ipad = new TabletFactory("apple");
         ipad.setName("아이패드6세대");
 
+git
         //메소드 호출
         ipad.produce("아이패드 6세대");
         ipad.manage();
