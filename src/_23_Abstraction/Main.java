@@ -48,7 +48,20 @@ git
         ipad.upgrade("아이패드 7세대");
 
 
+        //Factory_smartPhone_
+        // 생성자 - name, price
+        // 폰 내부 기능(메소드) - 전화걸기, 문자보내기, 사진찍기
 
+        //클래스와 객체 생성 - smartPhone 클래스 - 갤럭시 s24
+
+        SmartPhone smartPhone = new SmartPhone("삼성", "120만원");
+
+        smartPhone.produce("갤럭시 s24");
+        //메소드 호출
+        smartPhone.displayInfo();
+        smartPhone.call("010-1234-5678");
+        smartPhone.send("안녕");
+        smartPhone.takePhoto("고양이");
 
     }
 }

@@ -43,6 +43,22 @@ public class Student {
         this.address = address;
     }
 
+    //생성자로 만들기
+    Student(String stu_name) {
+        System.out.println("stu_name 이란 속성 값이 부여된 학생");
+        System.out.println("stu1 =>Required ArgsConstructor");
+        this.stu_name = stu_name;
+    }
+
+    Student(String stu_name, int stu_age, String stu_email, String stu_address) {
+        System.out.println("모든 속성 값이 부여된 학생");
+        System.out.println("=>AllArgsConstructor");
+        this.stu_name = stu_name;
+        this.stu_age = stu_age;
+        this.stu_email = stu_email;
+        this.stu_address = stu_address;
+    }
+
 
     //3. getter -> private 값 가져옴
     //setter 라는 메소드 통해서 값에 접근
@@ -71,5 +87,12 @@ public class Student {
         System.out.println("이메일: " + email);
         System.out.println("주소: " + address);
     }
+
 }
+
+
+
+
+
+
 

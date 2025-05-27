@@ -1,10 +1,15 @@
 package _21_Class.Student;
 
+import _21_Class.Car.Car;
+
 public class StudentMain {
     public static void main(String[] args) {
         //이름이 student 인 클래스 정의
         Student student = new Student("김지니", 25, "allie7019@naver.com", "부산");
              student.setName("홍길동");   //setter 로 값 수정 가능
+
+
+        // 기본 생성자
 
 
         //객체생성
@@ -28,6 +33,8 @@ public class StudentMain {
 //            System.out.println("=>AllArgsConstructor");
 //
 //        }
+
+        Student stu3 = new Student("김지니", 25, "allie7019@", "부산");
 
         //메소드 호출
         student.showInfo();
