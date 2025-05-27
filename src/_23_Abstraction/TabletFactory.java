@@ -16,12 +16,16 @@ public class TabletFactory extends Factory {
 //        this.tabletName = model;
     }
 
+//    public TabletFactory(String model) {
+//        super(name);
+//        this.tabletName = model;
+//    }
 
     //추상클래스의 메소드 재정의
     @Override
     public void produce(String model) {
         System.out.println("[" + model + "] 태블릿을 생산합니다.");
-//        this.tabletName = model;   //this 생략 가능(tabletName 과 model 이 같지 않기 때문)
+        this.tabletName = model;   //this 생략 가능(tabletName 과 model 이 같지 않기 때문)
     }
 
     @Override

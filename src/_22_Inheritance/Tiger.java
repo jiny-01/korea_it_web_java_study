@@ -50,9 +50,9 @@ public class Tiger extends Animal {
 
 
         //오버라이딩 - Alt + Ins 누르고 메소드 재정의
-        @Override                 //오버라이드를 어너테이션+시그니처(컴파일러에게 의도명시)으로 정의
+        @Override                  //오버라이드를 어너테이션+시그니처(컴파일러에게 의도명시)으로 정의
         public void move() {
-        super.move();             //부모의 메소드 호출
+        super.move();              //부모의 메소드 호출
             System.out.println(getAnimalName() + "가 움직입니다.");
             //메소드 - tiger(자식)한테 없는 걸 확인 후 animal(부모)에서 가져옴 - 동적 바인딩?
         }
