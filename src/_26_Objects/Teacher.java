@@ -32,6 +32,7 @@ public class Teacher {
     }
     //name 과 schoolName 의 값을 기반으로 고유한 숫자(hashCode)를 생성
 
+
     // 해시코드 무시하고 내용만 같으면 equal 성립하도록 메소드 정의
     @Override
     public boolean equals(Object obj) {
@@ -44,4 +45,5 @@ public class Teacher {
     }
 
     //equals 랑 hashcode 는 항상 같이 다님 -> 오버라이드 무조건 둘 다 같이 해줘야함
+    //-> equals 에서 같다고 판별된 객체는 같은 해시코드를 가져야한다. => 자바 규칙
 }
