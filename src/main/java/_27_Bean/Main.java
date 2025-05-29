@@ -24,6 +24,7 @@ public class Main {
         System.out.println(userEntity);
 
 
+
     }
 
 
@@ -50,6 +51,11 @@ public class Main {
 
     //lombok 쓰려면 maven
     //pom.xml 경로 바꾸기 - pom.xml
+
+    //Entity는 Bean 될수도, 안될수도 있음 but 별개의 개념
+    //DB 테이블에서 1:1 매칭이 되는 것 => Entity
+    //Bean -> 하나의 객체 설계 규칙(명세, 가이드라인)
+
 
 
 }

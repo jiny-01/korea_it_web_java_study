@@ -5,10 +5,10 @@ package _27_Bean;
 //멤버 변수들은 private => 캡슐화
 //기본 생성자
 //getter / setter => 외부 접근을 위해
-public class UserEntity extends Object{
+public class UserEntity {
 
-    //생성자 만들기
-    private int UserId;
+    //멤버변수 정의
+    private int userId;
     private String userName;
     private int age;
     private String email;
@@ -18,7 +18,7 @@ public class UserEntity extends Object{
 
     //getter
     public int getUserId() {
-        return UserId;
+        return userId;
     }
 
     public String getUserName() {
@@ -36,7 +36,7 @@ public class UserEntity extends Object{
 
     //setter
     public void setUserId(int userId) {
-        UserId = userId;
+        userId = userId;
     }
 
     public void setUserName(String userName) {
@@ -51,10 +51,12 @@ public class UserEntity extends Object{
         this.email = email;
     }
 
+
+
     @Override
     public String toString() {
         return "UserEntity(" +
-                "UserId= " + UserId +", "
+                "userId= " + userId +", "
                 + "userName= "+ userName +", "
                 + "age= " + age +", "
                 + "email= " + email +")";
