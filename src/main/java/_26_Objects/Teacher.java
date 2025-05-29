@@ -47,3 +47,6 @@ public class Teacher {
     //equals 랑 hashcode 는 항상 같이 다님 -> 오버라이드 무조건 둘 다 같이 해줘야함
     //-> equals 에서 같다고 판별된 객체는 같은 해시코드를 가져야한다. => 자바 규칙
 }
+
+
+
