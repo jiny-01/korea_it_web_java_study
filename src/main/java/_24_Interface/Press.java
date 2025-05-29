@@ -14,4 +14,15 @@ public interface Press {
     void onPressed();       //public abstract 생략된 것
 
     //인터페이스 : 다중 상속 가능 / 추상클래스- 단일상속
+
+    //추상 클래스 만들기	패키지 내에 MyAbstractClass.java 생성
+    //인터페이스 만들기	패키지 내에 MyInterface.java 생성
+    //일반 클래스 만들기	패키지 내에 MyClass.java 생성
+
+    //_24_Interface/ 내에
+    //─ Button.java           (추상 클래스)
+    //─ Press.java            (인터페이스)
+    //─ Up.java               (인터페이스)
+    //─ Down.java             (인터페이스)
+    //─ Tv.java         (일반 클래스 - Button 상속 & 인터페이스 구현할 파일)
 }
