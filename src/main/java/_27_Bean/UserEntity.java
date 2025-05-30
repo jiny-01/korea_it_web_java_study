@@ -71,6 +71,7 @@ public class UserEntity {
     }
     //오버라이드할 때 자동으로 return super. 이 뜨는데 여기서 super. 부분 지워도 되는지?
     //super. 에서 super 는 지워도 됨, 최상위 클래스 Object 이기 때문에 지워도 됨
-    //참조 주소까지 출력하고 싶으면super.toString() 명시해도 됨
+    //참조 주소까지 출력하고 싶으면 super.toString() 명시해도 됨
+
 
 }
