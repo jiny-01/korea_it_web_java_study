@@ -16,7 +16,9 @@ public class MemberMain {
         //실제로 쓸땐 @Builder 로 어노테이션 쓰면 다 만들어줌
         //import lombok.Builder;
         //
-        //@Builder   해서 위에 import 되면 쓸 수 있음
+        //@Builder  해서 위에 import 되면 쓸 수 있음
+        //빌드시스템을 maven 으로 바꿔야 lombok 사용가능
+
 
 
 

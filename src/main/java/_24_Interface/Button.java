@@ -2,6 +2,7 @@ package _24_Interface;
 
 //extends => 단일 상속 (클래스, 추상클래스)
 //implements => 다중 상속 (only 인터페이스)
+
 //마찬가지로 오버라이드 해줘야 에러 안뜸
 public abstract class Button implements Press, Up, Down{
 

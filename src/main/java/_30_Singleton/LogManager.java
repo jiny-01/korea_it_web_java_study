@@ -14,8 +14,8 @@ public class LogManager {
 
     //LogManager 의 객체를 쓰고 싶을 때 getInstance() 쓸 것 정의
     public static LogManager getInstance() {
-        if (instance == null) {      //정적 변수에 인스턴스가 있는지 확인
-            instance = new LogManager();  //없다면 최초 1회 객체 생성
+        if (instance == null) {      // 정적 변수에 인스턴스가 있는지 확인
+            instance = new LogManager();  // 없다면 최초 1회 객체 생성
         }
         return instance; //있다면 정적 변수에 있는 객체를 반환
     }
