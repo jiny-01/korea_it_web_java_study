@@ -1,4 +1,4 @@
-package Wildcard.UnBoundedWildcard;
+package _31_Generic.Generic_Wildcard.UnBoundedWildcard;
 
 import java.util.Date;
 

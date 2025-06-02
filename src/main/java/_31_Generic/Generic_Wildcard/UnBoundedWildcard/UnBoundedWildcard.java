@@ -1,4 +1,4 @@
-package Wildcard.UnBoundedWildcard;
+package _31_Generic.Generic_Wildcard.UnBoundedWildcard;
 
 public class UnBoundedWildcard {
     // 와일드 카드 => <> 에 ?

@@ -1,4 +1,4 @@
-package Wildcard.UpperBoundedWildcard;
+package _31_Generic.Generic_Wildcard.UpperBoundedWildcard;
 
 public class Cat extends Animal{
 

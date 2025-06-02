@@ -1,4 +1,4 @@
-package Wildcard.LowerBoundedWildcard;
+package _31_Generic.Generic_Wildcard.LowerBoundedWildcard;
 
 public class Dog extends Animal {
 

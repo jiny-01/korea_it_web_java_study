@@ -1,4 +1,4 @@
-package Wildcard.LowerBoundedWildcard;
+package _31_Generic.Generic_Wildcard.LowerBoundedWildcard;
 
 //임의의 상속 클래스 생성
 public class Animal {
