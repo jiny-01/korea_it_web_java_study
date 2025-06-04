@@ -64,7 +64,11 @@ public class Json02 {
         map1.put("productName", "삼성 갤럭시북 프로");
 
         System.out.println("gson 사용 : " + gson.toJson(map1));
+        System.out.println();
+
         System.out.println("gsonBuilder 사용 : " + gsonBuilder.toJson(map1));
+        System.out.println();
+
         String productJson = gsonBuilder.toJson(map1);
 
 
