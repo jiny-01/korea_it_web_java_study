@@ -69,6 +69,17 @@ public class ToDo {
         System.out.println(todolist);
 
 
+//        //6. 삭제할 todo입력받아서 deleteTodo에 대입해두고 포함 여부 확인 후 삭제, 성공여부 출력
+//        System.out.print("삭제할 todo를 입력해주세요 : ");
+//        String deleteTodo = scanner.nextLine();
+//        boolean isContain = todoList.contains(deleteTodo);
+//        if(isContain) {
+//            boolean removeResult = todoList.remove(deleteTodo);
+//            System.out.println("-> \"" + deleteTodo + "\" 삭제 여부 : " + removeResult);
+//        } else {
+//            System.out.println("해당 todo는 존재하지 않습니다.");
+//        }
+
         //7. todo 정렬, 전체 출력
         Collections.sort(todolist);
         System.out.println("정렬된 ToDo 리스트 : " + todolist);

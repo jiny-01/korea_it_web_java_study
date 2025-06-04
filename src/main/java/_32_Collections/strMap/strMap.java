@@ -67,10 +67,11 @@ public class strMap {
 
 
         //Map => Set 형변환
-        Set<Map.Entry<String, String>> entrySet1 = new HashSet<>();
+        Set<Map.Entry<String, String>> entrySet1 = new HashSet<>();     //방법1
         //키값 받아야 하기 때문에 Map.Entry<String, String>
 
-        Set<Map.Entry<String, String>> entrySet2 = strMap1.entrySet();
+        Set<Map.Entry<String, String>> entrySet2 = strMap1.entrySet();  //방법2
+
         System.out.println(entrySet2.size());     //키-값을 하나의 요소로 봄
 
         System.out.println(entrySet2);
@@ -87,7 +88,7 @@ public class strMap {
         //Map 은 빠른 탐색 및 검색을 위해서 만들어진(설게된) 형태
         //정렬은 고려하지 않고 만듦 => 그래서 순서를 보장하지 않음
         //그럼에도 정렬을 하고 싶다면?
-        //Map => List => Set
+        //Map => Set => List
         Collections.sort(entryList1, Map.Entry.comparingByValue());     //값 기준 정렬
         System.out.println("값 기준 정렬 : " + entryList1);
         Collections.sort(entryList1, Map.Entry.comparingByKey());       //키 기준 정렬
@@ -101,6 +102,9 @@ public class strMap {
         //key 만 세트 형태로 출력
         Set<String> keySet = strMap1.keySet();
         System.out.println(keySet);
+
+//        System.out.println(str.trim());   //.trim: 문자열 앞뒤 공백 제거
+        
     }
 
 }
