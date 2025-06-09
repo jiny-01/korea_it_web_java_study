@@ -3,7 +3,7 @@ package _35_Lambda;
 public class CalculatorMain {
     public static int operate(int a, int b, Calculator c) {
         return c.calculate(a, b);
-        //operate의 매개변수
+        //인터페이스(Calculator) 에서 정의한 operate 의 매개변수
         //a, b 숫자, 인터페이스(재정의할, add..)
 
     };
@@ -42,6 +42,9 @@ public class CalculatorMain {
         };
         System.out.println("2 / 0 = " + operate(2, 0, div3));
 
+        //람다를 사용하려면 인터페이스가 메소드 1개만 있어야하지만
+        //익명클래스는 메소드가 여러 개일 땐
+        //람다 사용해서 여러 줄 가능
 
 
     }
