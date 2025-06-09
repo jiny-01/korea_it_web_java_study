@@ -36,7 +36,7 @@ public class SignUpException extends Exception{
 //            System.out.println(e.getMessage());
 //        } finally {
 //            System.out.println(name + "님 회원가입이 완료되었습니다.");
-//        }g
+//        }
 
     }
 }
