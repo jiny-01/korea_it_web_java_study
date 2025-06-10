@@ -25,14 +25,14 @@ public class StringProcessorMain {
 
 
         //람다식 구현
-        StringProcessor toUpper = s -> s.toUpperCase();
-        StringProcessor toLower = s -> s.toLowerCase();
-        StringProcessor addPrefix = s -> ">>" + s;
-        StringProcessor reverse = s -> new StringBuilder(str).reverse().toString();
-
-        String testStr = scanner.nextLine();
-
-        System.out.println("모두 대문자 : " + execute(testStr, toUpper));
+//        StringProcessor toUpper = s -> s.toUpperCase();
+//        StringProcessor toLower = s -> s.toLowerCase();
+//        StringProcessor addPrefix = s -> ">>" + s;
+//        StringProcessor reverse = s -> new StringBuilder(str).reverse().toString();
+//
+//        String testStr = scanner.nextLine();
+//
+//        System.out.println("모두 대문자 : " + execute(testStr, toUpper));
 
 
 
@@ -58,7 +58,7 @@ public class StringProcessorMain {
         System.out.println("접두사 붙이기 : " + ">>" + str);
         System.out.println("문자열 거꾸로 : " + reverseStr);
 
-        //출력이 되긴 하는데 이렇게 해도 되는건지?
+        //출력은 됨
 
 
 
